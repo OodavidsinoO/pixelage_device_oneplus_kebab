@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--suppress CheckTagEmptyBody: overlayable resource to use as configuration hook -->
+    <string name="config_captive_portal_http_url" translatable="false">http://cp.cloudflare.com/</string>
+    <!--suppress CheckTagEmptyBody: overlayable resource to use as configuration hook -->
+    <string name="config_captive_portal_https_url" translatable="false">https://cp.cloudflare.com/</string>
+
+    <string-array name="config_captive_portal_http_urls" translatable="false">
+        <item>http://cp.cloudflare.com/</item>
+        <item>http://connectivity-check.ubuntu.com</item>
+        <item>http://conncheck.opensuse.org</item>
+        <item>http://conn-service-cn-04.allawntech.com/generate204</item>
+        <item>http://www.google-analytics.com/generate_204</item>
+    </string-array>
+    <string-array name="config_captive_portal_https_urls" translatable="false">
+        <item>https://cp.cloudflare.com/</item>
+        <item>https://connectivity-check.ubuntu.com</item>
+        <item>https://conncheck.opensuse.org</item>
+        <item>https://conn-service-cn-05.allawntech.com/generate204</item>
+        <item>https://www.google-analytics.com/generate_204</item>
+    </string-array>
+</resources>
